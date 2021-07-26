@@ -1,0 +1,343 @@
+<html lang="ja">
+  <head>
+    <script src="https://unpkg.com/vue"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- local css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- AOS Motion -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/vue-rate-it/dist/cdn/star-rating.min.js"> -->
+    
+    <!-- Noto Sans JP Font -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet"> -->
+   
+   <!-- sStar Rating -->
+    <script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/vue-rate-it/dist/cdn/vue-rate-it.min.js">
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbvue/lib/css/mdb.min.css"> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.theme.default.min.css">
+
+    <title>TOKIO IE INKARAMI PREMIUM</title>
+   
+  </head>
+  <script>
+    jQuery(document).ready(function ($) {
+      var owl = $("#carousel");
+      owl.owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        items: 3,
+        loop: true,
+        center: false,
+        rewind: false,
+        mouseDrag: true,
+        touchDrag: true,
+        pullDrag: true,
+        freeDrag: false,
+        margin: 0,
+        stagePadding: 0,
+        merge: false,
+        mergeFit: true,
+        autoWidth: false,
+        startPosition: 0,
+        rtl: false,
+        smartSpeed: 2000,
+        fluidSpeed: false,
+        dragEndSpeed: false,
+        responsive: {
+          0: {
+            items: 1
+            // nav: true
+          },
+          480: {
+            items: 1,
+            nav: false
+          },
+          768: {
+            items: 3,
+            // nav: true,
+            loop: true
+          },
+          992: {
+            items: 3,
+            // nav: true,
+            loop: true
+          },
+          1200: {
+            items: 3,
+            loop:true
+          }
+        },
+        responsiveRefreshRate: 1000,
+        responsiveBaseElement: window,
+        fallbackEasing: "swing",
+        info: false,
+        nestedItemSelector: false,
+        itemElement: "div",
+        stageElement: "div",
+        refreshClass: "owl-refresh",
+        loadedClass: "owl-loaded",
+        loadingClass: "owl-loading",
+        rtlClass: "owl-rtl",
+        responsiveClass: "owl-responsive",
+        dragClass: "owl-drag",
+        itemClass: "owl-item",
+        stageClass: "owl-stage",
+        stageOuterClass: "owl-stage-outer",
+        grabClass: "owl-grab",
+        autoHeight: false,
+        lazyLoad: false
+      });
+
+      $(".next").click(function () {
+        owl.trigger("owl.next");
+      });
+      $(".prev").click(function () {
+        owl.trigger("owl.prev");
+      });
+    });
+  </script>
+
+  <body>
+  <div class="wrapper">
+      <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="https://ifing-beauty.com/">
+        <img src="img/ifing_beauty_online_logo.svg" class="logo" height="30" class="d-inline-block align-top" alt="">
+      </a>
+      </nav>
+
+      <div class="jumbotron">
+          <div class="logo">
+            <h1><img src="img/tokio-ie-head-spa.png" alt="TOKIO INKARAMI PREMIUM" class="img-fluid"></h1>
+          </div>
+      </div>
+
+      <div class="strip-section">
+        <div class="row model p-0">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-7 d-flex align-items-center justify-content-center">
+            <div>
+              
+              <h3>頭皮に悩みを抱えている…</h3>
+              <h3>根元のボリュームが気になる…</h3>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-5 p-0 m-0">
+            <img src="img/cut-img01.png" alt="モデル" class="img-fluid">
+          </div>
+        </div>
+        <div class="row model mt-0">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-5 p-0 ">
+            <img src="img/cut-img02.png" alt="モデル" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-7 d-flex align-items-center justify-content-center">
+            <div>
+              <!-- <h3>&nbsp;</h3> -->
+              <h3>頭皮が乾燥している…</h3>
+              <h3>頭皮と髪のケアを同時にしたい…</h3>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-center">圧倒的な補修と保湿を擁する<br class="br_on">最高レベルの質感へ</h2>
+      </div>
+
+      <div class="tokio"> 
+      </div>
+
+
+    <div class="container-fluid p-0">
+        <section class="section01">
+          <div class="section01-title">
+            <h2 class="text-center">
+              TOKIO IE INKARAMI とは？</h2>
+          </div>
+          <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 section01-text">
+            
+              <div class="tokio-ie col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2">
+                <img src="img/tokio-ie-inkarami.png" alt="TOKIO IE PREMIUM" class="img-fluid">
+              </div>
+              <div class="section01-child-text col-lg-10 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                <p>TOKIO インカラミのホームケアシリーズTOKIO IE。シャンプーとトリートメントでインカラミする世界初の家庭用システムトリートメント。
+                  シャンプーにTOKIO 1、トリートメントにTOKIO 2.3.4が配合されており、いつも通りにシャンプーとトリートメントをするだけで、お風呂で簡単にTOKIO インカラミを体験できます。
+                  さらに独自処方アウトカラミを用いた洗い流さないトリートメントで上品な艶と指通りを与えます。イエでインカラミができる、ホームケアの新習慣をご提案します。</p>
+              </div>
+
+              
+          </div>
+        </section>
+
+        <section class="to-outside-link">
+          <h5 class="text-center"><a href="https://tokioinkarami.ifing-beauty.com/lp2/#accordion">TOKIO IEの補修メカニズムについて</a></h5>
+        </section>
+
+
+        <section class="section04">
+          <!-- <h2 class="text-center">海外でも 大人気！</h2> -->
+          <!-- <h3 class="text-center">TOKIO IE PLATINUM／TOKIO IE PREMIUMの比較</h3> -->
+          <!--  <div class="col-lg-3 col-md-2 col-sm-12 treatment pt-5">
+                <img :src="product.img2" alt="product.tname" class="img-fluid">
+                <p>{{product.tname}}</p>
+                <p>Description</p>
+              </div> -->
+          <div class="container-fluid" id="gridlist">
+
+              <div class="row col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 p-0 img-gallery"  v-for="image in spaImages">
+                  <img :src="image.imagelink" alt="TOKIO" class="img-fluid">
+                </div>
+              </div>
+
+          </div>
+          
+        </section>
+        <section class="section02" data-aos="zoom-in-up">
+          <h2 class="text-center">HEAD SPAシリーズとは？</h2>
+          <h3 class="text-center"></h3>
+            <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 section02-text">
+              <div class="row child-text p-2">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-4 my-auto img-area">
+                  <div class="img">
+                    <img src="img/tokio-ie-head-spa.png" alt="TOKIO IE HEAD SPA" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                  <p>頭皮と毛髪のダブルケアを徹底追及したシリーズ。<br>
+                    徹底保湿と血行促進による頭皮の環境改善と特許技術インカラミによる髪のダメージケアで、サロンケアを施したように仕上げるホームスパシャンプー・トリートメントです。<br>
+                    軽やかでサラサラな指通りを与えつつ、スカルプ効果と根元からの立ち上がりを与えるSPA史上、最強のデイリーケアです。</p>
+                </div>
+              </div>
+              <h6 data-aos="fade-right"><span>しっとりNo.1</span><span>まとまり</span><span>保湿力</span></h6>
+              <!-- <h6 data-aos="fade-right">しっとりNo.1</h6> -->
+              <h6 data-aos="fade-left"></h6>
+              <h6 data-aos="fade-right"></h6>
+              <div class="container">
+                <div class="img">
+                
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1" data-aos="flip-right">
+                  <img src="img/premium-2.png" alt="TOKIO IE PREMIUM　プレミアム" class="img-fluid">
+                </div>
+                </div>
+              </div>
+
+            </div>
+        </section>
+
+
+        <section class="section03">
+          <div class="section03-text" id="productChar">
+            <h2 class="text-center">商品特徴</h2>
+              <div class="row my-5 col-lg-10 offset-lg-1 justify-content-center">
+                <div class="col-lg-4 col-md-4 col-sm-4 items" v-for="type in types">
+                  <img :src="type.img" alt="TOKIO INKARAMI PREMIUM SHAMPOO" class="img-fluid">
+                  <div class="items-text">
+                    <h2>{{type.name}}</h2>
+                    <p>{{type.text}}</p>
+                  </div>
+                </div>
+              </div>
+            <h5 class="text-center">
+              <strong class="light">シャンプーはラベンダーの香りで鎮静効果</strong>
+            </h5>
+            <h5 class="text-center">
+              <strong class="lighter">トリートメントはスウィートフローラルの香り<br>美容室でトリートメントをしている気分に</strong>
+            </h5>
+            <!-- <h5 class="text-center">美容室でトリートメントをしている気分に…</h5> -->
+          </div>
+        </section>
+
+        <section class="section04">
+          <div class="container" id="characteristics">
+            <h2 class="text-center">特徴成分</h2>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6" v-for="item in substances">
+                <h5>{{item.name}}</h5>
+                <h6 class="smaller">{{item.subtext}}</h6>
+                <p class="information">{{item.about}}</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+
+       
+
+        <section class="section05">
+          <!-- 商品一覧 -->
+          <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-12 col-sm-12 mt-5" id="app">
+            <h2 class="mb-5 text-center">商品一覧</h2>
+            
+            <div class="col-lg-12">
+              <div id="carousel" class="owl-carousel owl-theme">
+                
+                <div v-for="item in items" class="card item">
+                  <img :src="item.img" class="card-img-top">
+                  <div v-if="item.sub === true" class="subscription">
+                    定期商品
+                  </div>
+                  
+                  <div class="card-body">
+                    <h3 class="card-title">{{ item.name }}</h3>
+                    <h5>{{ item.size }}</h5>
+                    <h4><span>{{ item.price }}</span>円</h4>
+                    <h3>税込<span>{{ item.taxPrice }}</span>円</h3>
+                  </div>
+                  <div class="card-footer">
+                    <div v-if="item.stock === true" class="mt-3">
+                      <a v-bind:href="item.purchaseLink" class="btn btn-primary">購入ページへ</a>
+                    </div>
+                    <div v-else class="mt-3">
+                      <p>在庫無し</p>
+                      <a v-bind:href="item.purchaseLink" class="btn btn-success disabled">入荷待ち</a>
+                    </div>
+                  </div>
+                </div>
+              
+              </div><!-- #carousel -->
+            </div><!-- .container -->
+          </div>
+        </section>
+
+        
+
+
+
+    </div>
+
+    <footer class="container-fluid">
+
+      <div class="footer-contents col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 pt-4">
+        <p class="small text-muted"><a href="https://ifing-beauty.com/help/tradelaw">特定商取引法に基づく表示</a> | <a href="https://ifing-beauty.com/help/privacy">プライバシーポリシー</a> | <a href="https://ifing-beauty.com/help/agreement">利用規約</a> | <a href="https://www.ifing.com/company/">会社情報</a></p>
+        <p class="small text-muted">
+          Copyright © IFING Co., Ltd. All Rights Reserved.</p>
+      </div>
+
+    </footer>
+  </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.0/jquery-migrate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="app.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+
+</html>

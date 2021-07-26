@@ -1,0 +1,643 @@
+$tokioGray: #71797E !important;
+
+$bigPC: 1478px;
+$regularPC: 1200px;
+$smallPC: 992px;
+$iPad: 768px;
+$iPadLandscape: 1024px;
+$iphoneMax: 520px;
+$iphone12: 428px;
+
+
+.br_on {
+  display: none;
+}
+body, html {
+  overflow-x: hidden;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+
+nav {
+  .logo {
+    margin-left: 5%;
+  }
+}
+.disp_on_regularPC {
+  display: none;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  background: white;
+  border: none;
+}
+
+.owl-carousel {
+  .owl-stage {
+    display: flex;
+  }
+  .owl-item {
+    display: flex;
+    flex: 1 0 auto;
+  }
+}
+
+.jumbotron {
+  height:100vh;
+  background: url('../img/tokio-ie-spa-bnr.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  .logo {
+    position: absolute;
+    width: 10%;
+    top: 5%;
+    left: 1%;
+  }
+}
+section {
+  padding: 5vh 0;
+  
+}
+
+
+.to-outside-link {
+  background:rgb(230,230,250);
+  a {
+    color: #fff;
+    text-shadow: 1px 1px rgba($color: #000000, $alpha: 0.4);
+    background: purple;
+    padding: 5px 10px;
+  }
+}
+
+
+
+.strip-section {
+  height:100vh;
+  background:url(../img/pattern-wallpaper.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  .model {
+    width: 60%;
+    margin: 0 auto;
+    h3 {
+      // color: red;
+      color:#7C6F64;
+    }
+    
+  }
+  h2 {
+    margin:10vh auto;
+    color: #B6362D;
+    font-size:2.5em;
+  }
+}
+
+.tokio {
+  background: url(../img/tokio-pr-bg.png) no-repeat;
+  // background:url(../img/premium-2.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:40%;
+}
+
+@media (min-width: $iPad) and (max-width: $iPadLandscape) {
+
+  .strip-section {
+    .model {
+      width:85%;
+    }
+  }
+
+  .tokio {
+    background: url(../img/tokio-pr-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:30%;
+  }
+
+}
+
+
+
+
+
+
+.section01 {
+  background: antiquewhite;
+  // background:url(../img/img002.jpg) no-repeat;
+  // background-position: center;
+  // background-size:cover;
+  padding:4vh 0;
+  .section01-title {
+    width:50%;
+    margin:0 auto;
+    img {
+      width:60%;
+    }
+    h2 {
+      font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    }
+  }
+  .section01-text {
+    // background: rgba(255, 255, 255, 0.7);
+   
+    padding: 40px 20px;
+    p {
+      line-height: 2em;
+      font-size:1em;
+      margin-top:3vh;
+      // text-align: center;
+      font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+      strong.product {
+        font-size:1.25em;
+        padding:0 5px;
+      }
+      strong.characteristic {
+        font-size:1.25em;
+        padding:0 5px;
+        color:#B51423;
+        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+      }
+    }
+  }
+}
+
+.section02 {
+  background: rgb(213,196,115);
+  background: linear-gradient(196deg, rgba(213,196,115,0.7189250700280112) 0%, #fff6a3 100%);
+  height:100%;
+  min-height:830px;
+  h2 {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  }
+  .section02-text {
+    // background: rgba(232, 236, 241, 0.8);
+    padding: 20px;
+    .child-text {
+      // background: #fff;
+      margin:2vh auto; 
+      .img-area {
+        .img {
+          width:50%;
+          margin:0 auto;
+        }
+      }
+    }
+    h6 {
+      padding-bottom:1vh;
+      span {
+        margin:0 10px;
+      color:white;
+      text-shadow: 1px 1px 3px #B51423;
+
+      }
+    }
+    p {
+      // background: rgba(232, 236, 241, 0.8);
+      padding: 10px 20px;
+      line-height: 2em;
+      font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+      font-size:1em;
+    }
+    h6 {
+      font-size: 2em;
+      text-align: center;
+      margin:0 auto;
+      font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    }
+  }
+  .img-gallery {
+    position: relative;
+    p.bottom-right {
+      position:absolute; 
+      bottom:-10px; 
+      right: 5px; 
+      background:white; 
+      padding:3px 5px;
+      font-size:0.7em;
+      font-family: "メイリオ" ;
+    }
+  }
+}
+.section03 {
+  // background: #e5f4d5;
+  // background: rgb(187,135,224);
+  background: linear-gradient(135deg,#fff6a3 0%, #fffbd9 100%);
+  // background:#fff6a3;
+  
+  .section03-text {
+    .items-text {
+      margin: 20px auto;
+      font-family: 'Noto Sans JP', sans-serif;
+      h2 {
+        font-size: 1.25em;
+        padding-left: 10px;
+        border-left: 5px solid #000;
+        border-bottom: 1px solid #000;
+      }
+      p {
+        padding: 0 10px;
+      }
+    }
+    h5 {
+      font-size: 1.5em;
+      line-height:2em;
+      font-weight: normal;
+      font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+      strong {
+        font-size: 1em;
+        padding: 0 2px;
+        text-shadow: 1px 1px 1px #fff;
+      }
+      strong.light {
+        color: rgba(187,135,224);
+  //       color: linear-gradient(135deg, rgba(187,135,224,1) 0%, rgba(230,230,250,1) 100%);
+  //       -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+      }
+      strong.lighter {
+        color: rgb(141,192,223);
+      }
+    }
+  }
+}
+.section04 {
+  background: #fffbd9;
+  background: linear-gradient(180deg, #fffbd9 0%, #fff 100%);
+  
+  h2 {
+    font-size:1.5em;
+  }
+  h3 {
+    font-size:1.25em;
+    margin-bottom: 5vh;
+  }
+  // .difference {
+  //   background: white;
+  //   width: 100%;
+  //   margin: 0 auto;
+  //   max-width: 1600px;
+  //   .characteristic-list {
+  //     ul {
+  //       list-style-type: disc;
+  //       padding: 0 15px;
+  //     }
+  //   }
+  // }
+  .img-gallery {
+    position: relative;
+    p.bottom-right {
+      position:absolute; 
+      bottom:-10px; 
+      right: 5px; 
+      background:white; 
+      padding:3px 5px;
+      font-size:0.7em;
+      font-family: "メイリオ" ;
+    }
+  }
+}
+
+.card {
+  position: relative;
+  text-align: center;
+  // font-family: 'Noto Sans JP', sans-serif;
+  .card-body {
+    .card-title {
+      font-size: 1.25em;
+    }
+    h4 {
+      font-size:1em;
+      font-weight: normal;
+      span {
+        font-size:1.5em;
+      }
+    }
+    h3 {
+      font-size:1.25em;
+      font-weight: normal;
+      span {
+        font-size:1.5em;
+        color: red;
+      }
+    }
+    
+  }
+  .subscription {
+    position: absolute;
+    top:2%;
+    left:3%;
+    background:red;
+    padding:0 5px;
+    font-size:1.5em;
+    color:#fff;
+  }
+}
+
+footer {
+  // background: $primary-white;
+  border-top:1px solid rgb(229, 228, 226);
+  .footer-contents {
+    text-align: center;
+    font-size:0.9em;
+    p {
+      color:$tokioGray;
+      a {
+        padding:0 10px;
+        color:$tokioGray;
+        text-decoration: none;
+      }
+      a:hover {
+        padding-bottom:3px;
+        font-weight:bold;
+        border-bottom:1px solid $tokioGray;
+      }
+    }
+  }
+}
+
+
+
+
+
+@media (max-width:$bigPC) {
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:1.15em;
+        }
+      }
+    }
+  } 
+}
+
+@media (max-width:1372px) {
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:1.05em;
+        }
+      }
+    }
+  } 
+}
+
+@media (max-width:1264px) {
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:1em;
+        }
+      }
+    }
+  } 
+}
+
+//1210px 
+@media (max-width: 1210px) {
+  
+  .strip-section {
+    .model {
+      width:100%;
+      h3 {
+        font-size:1.5em;
+      }
+    }
+
+  }
+  
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:0.9em;
+        }
+        p {
+          font-size:0.9em;
+        }
+      }
+    }
+  } 
+}
+
+
+// 1200px
+@media (max-width: $regularPC) {
+
+  .disp_on_regularPC {
+    display:block;
+  }
+
+  .strip-section {
+    .model {
+      width:100%;
+    }
+  }
+  .section04 {
+    background: #F5DADF;
+    h2 {
+      font-size:1.5em;
+    }
+    h3 {
+      font-size:1.25em;
+      margin-bottom: 5vh;
+    }
+  }
+
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:0.9em;
+        }
+        p {
+          font-size:0.9em;
+        }
+      }
+    }
+  } 
+
+}
+
+@media (max-width: 1104px) {
+
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:0.85em;
+        }
+        p {
+          font-size:0.85em;
+        }
+      }
+    }
+  } 
+}
+
+@media (max-width: 1050px) {
+
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:0.8em;
+        }
+        p {
+          font-size:0.8em;
+        }
+      }
+    }
+  } 
+}
+// 992px
+@media (max-width: $smallPC) {
+
+  .jumbotron {
+    height:70vh;
+  }
+}
+
+// 768px
+@media (max-width: $iPad) {
+  .strip-section {
+    .model {
+      width:100%;
+     h3 {
+      color: black;
+     }
+    }
+  }
+  .tokio {
+    background: url(../img/tokio-pr-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:30%;
+  }
+
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:0.75em;
+        }
+        p {
+          font-size:0.8em;
+        }
+      }
+    }
+  } 
+}
+
+@media (max-width: $iphoneMax ) {
+  
+  .jumbotron {
+   height: 45vh;
+   .logo {
+     width:13%;
+     left:3%;
+   }
+  }
+
+  
+ 
+  
+  .br_on {
+    display: block;
+  }
+  .strip-section {
+    height: 58vh;
+    .model {
+      h3 {
+        font-size:0.9em;
+      }
+    }
+    h2 {
+      font-size:1.65em;
+    }
+  }
+
+  .section01 {
+    .section01-title {
+      width:100%;
+      h2 {
+        font-size:1.4em;
+      }
+    }
+    .section01-text {
+      padding: 20px 0;
+      p {
+        font-size:0.9em;
+        line-height:2.5em;
+        padding:0 20px;
+      }
+    }
+  }
+
+  .section02 {
+    h2 {
+      font-size:1.4em;
+    }
+    .section02-text {
+      padding:20px 0;
+      p {
+        padding:10px 0;
+        font-size:1em;
+      }
+      .child-text {
+        .img-area {
+          margin: 0px auto;
+          padding-bottom:40px;
+          .img {
+            width:100%; 
+          }
+        }
+      }
+      h6 {
+        font-size:1.25em;
+      }
+    }
+  }
+  
+  .section03 {
+    padding: 40px 5px;
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:1em;
+        }
+        p {
+          font-size:0.8em;
+          
+        }
+      }
+      h5 {
+        font-size:1em;
+      }
+    }
+  }
+
+  
+}
+
+@media (max-width: $iphone12) {
+  .jumbotron {
+    height:44vh;
+  }
+
+  // .section01 {
+  //   .section01-text {
+  //     .tokio-ie {
+  //       height:30vh;
+  //     }
+  //   }
+  // }
+}
