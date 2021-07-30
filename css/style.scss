@@ -45,14 +45,15 @@ nav {
 }
 
 .jumbotron {
-  height:100vh;
+  width: 100%;
+  aspect-ratio: 16/9;
   background: url('../img/tokio-ie-spa-bnr.jpg') no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
   .logo {
     position: absolute;
-    width: 10%;
+    width: 8%;
     top: 5%;
     left: 1%;
   }
@@ -76,13 +77,13 @@ section {
 
 
 .strip-section {
-  height:100vh;
-  background:url(../img/pattern-wallpaper.jpg) no-repeat;
+  // height:100vh;
+  background:url(../img/bg01.png) no-repeat;
   background-position: center;
   background-size: cover;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
   .model {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     h3 {
       // color: red;
@@ -98,11 +99,11 @@ section {
 }
 
 .tokio {
-  background: url(../img/tokio-pr-bg.png) no-repeat;
+  background: url(../img/spa720.png) no-repeat;
   // background:url(../img/premium-2.png) no-repeat;
   background-position: center;
   background-size: cover;
-  height:40%;
+  padding-top: 25%;
 }
 
 @media (min-width: $iPad) and (max-width: $iPadLandscape) {
@@ -114,7 +115,7 @@ section {
   }
 
   .tokio {
-    background: url(../img/tokio-pr-bg.png) no-repeat;
+    // background: url(../img/tokio-pr-bg.png) no-repeat;
     background-position: center;
     background-size: cover;
     height:30%;
@@ -128,19 +129,23 @@ section {
 
 
 .section01 {
-  background: antiquewhite;
+  background: #B5ADA5;
   // background:url(../img/img002.jpg) no-repeat;
   // background-position: center;
   // background-size:cover;
   padding:4vh 0;
   .section01-title {
-    width:50%;
+    width:60%;
     margin:0 auto;
     img {
       width:60%;
     }
     h2 {
       font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    }
+    p {
+      font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+      line-height: 2em;
     }
   }
   .section01-text {
@@ -169,9 +174,9 @@ section {
 
 .section02 {
   background: rgb(213,196,115);
-  background: linear-gradient(196deg, rgba(213,196,115,0.7189250700280112) 0%, #fff6a3 100%);
-  height:100%;
-  min-height:830px;
+  background: linear-gradient(196deg, #d6cdf3 0%, #E5DDFF 100%);
+  // height:100%;
+  // min-height:830px;
   h2 {
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
   }
@@ -227,7 +232,7 @@ section {
 .section03 {
   // background: #e5f4d5;
   // background: rgb(187,135,224);
-  background: linear-gradient(135deg,#fff6a3 0%, #fffbd9 100%);
+  background: linear-gradient(135deg,#E5DDFF 0%, #ece6ff 100%);
   // background:#fff6a3;
   
   .section03-text {
@@ -267,8 +272,8 @@ section {
   }
 }
 .section04 {
-  background: #fffbd9;
-  background: linear-gradient(180deg, #fffbd9 0%, #fff 100%);
+  background: #7465a7;
+  background: linear-gradient(180deg, #7465a7 0%, #f3e6ff 100%);
   
   h2 {
     font-size:1.5em;
@@ -299,6 +304,28 @@ section {
       padding:3px 5px;
       font-size:0.7em;
       font-family: "メイリオ" ;
+    }
+  }
+}
+
+.section06 {
+  background:#ece6ff;
+  background:linear-gradient(135deg,#ece6ff 0%, #f8f6ff 100%);
+  .container {
+    .substances {
+      margin:5vh 0;
+      padding:3vh 3vw;
+      h5 {
+        font-weight:bold;
+        padding-bottom:5px;
+        border-bottom:1px solid #000;
+      }
+      h6.smaller {
+        font-size:0.8em;
+      }
+      p.information {
+        padding:0 10px;
+      }
     }
   }
 }
@@ -408,7 +435,7 @@ footer {
     .model {
       width:100%;
       h3 {
-        font-size:1.5em;
+        font-size:1.4em;
       }
     }
 
@@ -501,9 +528,9 @@ footer {
 // 992px
 @media (max-width: $smallPC) {
 
-  .jumbotron {
-    height:70vh;
-  }
+  // .jumbotron {
+  //   height:70vh;
+  // }
 }
 
 // 768px
@@ -517,10 +544,20 @@ footer {
     }
   }
   .tokio {
-    background: url(../img/tokio-pr-bg.png) no-repeat;
+    // background: url(../img/tokio-pr-bg.png) no-repeat;
     background-position: center;
     background-size: cover;
     height:30%;
+  }
+
+  .section01 {
+    padding:4vh 0;
+    .section01-title {
+      width:75%;
+      margin:0 auto;
+      
+    }
+    
   }
 
   .section03 {
@@ -540,7 +577,7 @@ footer {
 @media (max-width: $iphoneMax ) {
   
   .jumbotron {
-   height: 45vh;
+  //  height: 45vh;
    .logo {
      width:13%;
      left:3%;
@@ -554,10 +591,10 @@ footer {
     display: block;
   }
   .strip-section {
-    height: 58vh;
+    // height: 58vh;
     .model {
       h3 {
-        font-size:0.9em;
+        font-size:0.8em;
       }
     }
     h2 {
@@ -583,6 +620,7 @@ footer {
   }
 
   .section02 {
+    // height: 100%;
     h2 {
       font-size:1.4em;
     }

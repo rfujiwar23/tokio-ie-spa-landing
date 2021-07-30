@@ -130,7 +130,7 @@
 
       <div class="strip-section">
         <div class="row model p-0">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-7 d-flex align-items-center justify-content-center">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-7 p-0 d-flex align-items-center justify-content-center">
             <div>
               
               <h3>頭皮に悩みを抱えている…</h3>
@@ -138,22 +138,21 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-5 p-0 m-0">
-            <img src="img/cut-img01.png" alt="モデル" class="img-fluid">
+            <img src="img/cut-img01-1.png" alt="モデル" class="img-fluid">
           </div>
         </div>
         <div class="row model mt-0">
           <div class="col-lg-6 col-md-6 col-sm-6 col-5 p-0 ">
-            <img src="img/cut-img02.png" alt="モデル" class="img-fluid">
+            <img src="img/cut-img02-1.png" alt="モデル" class="img-fluid">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-7 d-flex align-items-center justify-content-center">
             <div>
-              <!-- <h3>&nbsp;</h3> -->
               <h3>頭皮が乾燥している…</h3>
               <h3>頭皮と髪のケアを同時にしたい…</h3>
             </div>
           </div>
         </div>
-        <h2 class="text-center">圧倒的な補修と保湿を擁する<br class="br_on">最高レベルの質感へ</h2>
+        <!-- <h2 class="text-center">圧倒的な補修と保湿を擁する<br class="br_on">最高レベルの質感へ</h2> -->
       </div>
 
       <div class="tokio"> 
@@ -162,21 +161,15 @@
 
     <div class="container-fluid p-0">
         <section class="section01">
-          <div class="section01-title">
-            <h2 class="text-center">
-              TOKIO IE INKARAMI とは？</h2>
+          <div class="section01-title p-3" id="whatIs">
+            <h2 class="text-center">{{title}}</h2>
+            <p class="mt-5">{{text}}</p>
           </div>
           <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 section01-text">
             
               <div class="tokio-ie col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2">
-                <img src="img/tokio-ie-inkarami.png" alt="TOKIO IE PREMIUM" class="img-fluid">
+                <img src="img/tokio-ie-all.png" alt="TOKIO IE PREMIUM" class="img-fluid">
               </div>
-              <div class="section01-child-text col-lg-10 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
-                <p>TOKIO インカラミのホームケアシリーズTOKIO IE。シャンプーとトリートメントでインカラミする世界初の家庭用システムトリートメント。
-                  シャンプーにTOKIO 1、トリートメントにTOKIO 2.3.4が配合されており、いつも通りにシャンプーとトリートメントをするだけで、お風呂で簡単にTOKIO インカラミを体験できます。
-                  さらに独自処方アウトカラミを用いた洗い流さないトリートメントで上品な艶と指通りを与えます。イエでインカラミができる、ホームケアの新習慣をご提案します。</p>
-              </div>
-
               
           </div>
         </section>
@@ -221,56 +214,58 @@
                     軽やかでサラサラな指通りを与えつつ、スカルプ効果と根元からの立ち上がりを与えるSPA史上、最強のデイリーケアです。</p>
                 </div>
               </div>
-              <h6 data-aos="fade-right"><span>しっとりNo.1</span><span>まとまり</span><span>保湿力</span></h6>
+              <!-- <h6 data-aos="fade-right"><span>しっとりNo.1</span><span>まとまり</span><span>保湿力</span></h6> -->
               <!-- <h6 data-aos="fade-right">しっとりNo.1</h6> -->
-              <h6 data-aos="fade-left"></h6>
-              <h6 data-aos="fade-right"></h6>
-              <div class="container">
-                <div class="img">
+              <!-- <h6 data-aos="fade-left"></h6> -->
+              <!-- <h6 data-aos="fade-right"></h6> -->
+              <!-- <div class="container">
+                
+              </div> -->
+
+              <div class="img">
                 
                 <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1" data-aos="flip-right">
-                  <img src="img/premium-2.png" alt="TOKIO IE PREMIUM　プレミアム" class="img-fluid">
+                  <img src="img/spa-001.jpg" alt="TOKIO IE PREMIUM　プレミアム" class="img-fluid">
                 </div>
                 </div>
-              </div>
 
             </div>
         </section>
 
 
         <section class="section03">
-          <div class="section03-text" id="productChar">
-            <h2 class="text-center">商品特徴</h2>
-              <div class="row my-5 col-lg-10 offset-lg-1 justify-content-center">
-                <div class="col-lg-4 col-md-4 col-sm-4 items" v-for="type in types">
-                  <img :src="type.img" alt="TOKIO INKARAMI PREMIUM SHAMPOO" class="img-fluid">
-                  <div class="items-text">
-                    <h2>{{type.name}}</h2>
-                    <p>{{type.text}}</p>
+          <div class="container">
+            <div class="section03-text" id="productChar">
+              <h2 class="text-center">商品特徴</h2>
+                <div class="row my-5">
+                  <div class="col-lg-6 col-md-6 col-sm-6 items" v-for="type in types">
+                    <img :src="type.img" alt="TOKIO INKARAMI PREMIUM SHAMPOO" class="img-fluid">
+                    <div class="items-text">
+                      <h2>{{type.name}}</h2>
+                      <p>{{type.text}}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            <h5 class="text-center">
-              <strong class="light">シャンプーはラベンダーの香りで鎮静効果</strong>
-            </h5>
-            <h5 class="text-center">
-              <strong class="lighter">トリートメントはスウィートフローラルの香り<br>美容室でトリートメントをしている気分に</strong>
-            </h5>
-            <!-- <h5 class="text-center">美容室でトリートメントをしている気分に…</h5> -->
+              <h5 class="text-center">
+                <strong class="light">レモングラスの香り</strong>
+              </h5>
+              
+              <!-- <h5 class="text-center">美容室でトリートメントをしている気分に…</h5> -->
+            </div>
           </div>
         </section>
 
-        <section class="section04">
+        <section class="section06">
           <div class="container" id="characteristics">
             <h2 class="text-center">特徴成分</h2>
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6" v-for="item in substances">
-                <h5>{{item.name}}</h5>
-                <h6 class="smaller">{{item.subtext}}</h6>
-                <p class="information">{{item.about}}</p>
+              <div class="col-lg-6 col-md-6 col-sm-6 substances" v-for="item in substances">
+                <h5 class="text-center">{{item.name}}</h5>
+                <h6 class="smaller text-center">{{item.subtext}}</h6>
+                <p class="information mt-4">{{item.about}}</p>
+                <!-- <img :src="item.img1" alt="graph" class="img-fluid"> -->
               </div>
             </div>
-
           </div>
         </section>
 
